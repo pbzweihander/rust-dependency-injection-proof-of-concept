@@ -1,0 +1,17 @@
+[package]
+name = "dipoc-macros"
+version = "0.1.0"
+authors = ["Kangwook Lee <pbzweihander@gmail.com>"]
+edition = "2018"
+license = "Unlicense"
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+derive-syn-parse = "0.1.5"
+proc-macro-error = "1.0.4"
+proc-macro2 = "1.0.27"
+quote = "1.0.9"
+syn = "1.0.72"
